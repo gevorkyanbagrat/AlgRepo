@@ -1,4 +1,6 @@
-def raiseToDegree(a,b):#1
+
+#1
+def raiseToDegree(a,b):
     s = 1
     for i in range(b):
         s = s * a

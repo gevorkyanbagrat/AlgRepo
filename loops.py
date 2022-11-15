@@ -6,7 +6,8 @@ def raiseToDegree(a,b):
         s = s * a
     return s
 
-def printNumbersthatAreMultipliesOfA(a):#2
+#2
+def printNumbersthatAreMultipliesOfA(a):
     ans = []
     for i in range(1, 1001):
         if i % a == 0: ans += [i]
